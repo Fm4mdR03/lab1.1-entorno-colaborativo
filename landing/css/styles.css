@@ -1,0 +1,17 @@
+/* Estilos simples adicionales para la landing */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+header p.lead {
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 576px) {
+  .card-title { font-size: 1.1rem; }
+}
